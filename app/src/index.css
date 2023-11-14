@@ -31,8 +31,8 @@ body {
 }
 
 main {
-  width: 25em;
-  height: 25em;
+  width: 26em;
+  height: 26em;
   border-radius: 5px;
   background: #F5F5F5;
   display: flex;
@@ -47,7 +47,7 @@ main {
   grid-template-columns: repeat(5, auto);
   grid-template-rows: 2;
   gap: 20px;
-  margin-bottom: 2.5em;
+  margin-bottom: 1em;
 }
 
 .die {
@@ -83,4 +83,8 @@ button:focus {
 
 button:active {
   box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+.rolls, .time {
+  margin: 0;
 }
