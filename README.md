@@ -5,7 +5,7 @@
 
 2. DIE COMPONENTS: Since I don't have an array of objects with an id yet, I start with defining a Die component to pass props for rendering the props.value in a text element. The value given to the props will be initially hard code, just for initial rendering.
 
-3. BREAKDOWN - GENERATE ARRAY: Now I can create an array of 10 random numbers to iterate over and render it to screen. I define a function allNewDice() that returns the array of 10 random numbers between 1-6 inclusive. I have different ways to create an array to iterate over it: I can use an array constructor, or I can define an empty array, iterate with for...loop 10 times, and push a random number in it. I decided to use an array constructor to test a method I never used before, and reduce the lines of code.
+3. BREAKDOWN - GENERATE ARRAY: Now I can create an array of 10 random numbers to iterate over and render it to screen. I define a function allNewDice() that returns the array of 10 random numbers between 1-6 inclusive. I have different ways to create an array to iterate over it: I can use an array constructor, or I can define an empty array, iterate with for...loop 10 times, and push a random number in it. I decided to use an array constructor to test a method I never used before, and reduce the lines of code (UPDATED TO FOR..LOOP LATER)
 
 4. BREAKDWON - MAP OVER THE ARRAY: I create a new state to hold the value of the array returned in the function allNewDice(). Since the function holds the array, I assign the function to the original state. I map over state array, and return the Die component assigning key and value. The props value is equal to the random number generated in the body function of the array constructor.
 
